@@ -1,5 +1,5 @@
 const express = require('express');
-const router = new Router();
+const router = express.Router(); // Исправлено
 
 // Импорт всех нужных маршрутов
 const userRouter = require('./userRouter'); 
