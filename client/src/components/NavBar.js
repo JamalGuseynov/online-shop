@@ -24,7 +24,7 @@ const NavBar = observer(() => {
                 <NavLink 
                     style={{ color: 'white', textDecoration: 'none', marginRight: '20px' }} 
                     to={SHOP_ROUTE}>
-                    JamalStore
+                    OnlineShop
                 </NavLink>
                 {user.isAuth ?
                 <Nav className="ms-auto" style={{ color: "white" }}>
